@@ -2,7 +2,12 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>page</div>
+    <main className="flex justity-center bg-zinc-800">
+      <div>
+        <img src="/bgcat.jpg" className=""/>
+        <h1>azael</h1>
+      </div>
+    </main>
   )
 }
 
