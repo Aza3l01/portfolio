@@ -6,6 +6,7 @@ const page = () => {
       <div>
         <img src="/bgcat.jpg" className=""/>
         <h1>azael</h1>
+        <h1>UNDER CONSTRUCTION</h1>
       </div>
     </main>
   )
