@@ -14,8 +14,9 @@ const Header = () => {
         
         <div className="relative z-10 text-center p-8">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">Azael</h1>
+          {/* <h2 className="text-5xl md:text-2xl font-bold mb-6">Jeff Mathew</h2> unlikely to add this*/}
           <p className="text-xl md:text-2xl max-w-2xl mx-auto mb-10">
-            Under Construction, please wait :(
+            under construction, please wait :(
           </p>
         </div>
       </div>
