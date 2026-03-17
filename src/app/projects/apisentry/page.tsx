@@ -5,7 +5,7 @@ export default function APISentryPage() {
     <ProjectPage
       title="APISentry"
       subtitle="Multi-Agent AI Framework for API Abuse Detection"
-      githubUrl="https://github.com/PLACEHOLDER/apisentry"
+      githubUrl="https://github.com/Aza3l01/abuse-engine"
       websiteUrl="https://PLACEHOLDER.com"
       overview="A four-agent AI framework designed to detect and report multiple API abuse vectors simultaneously. Instead of relying on a single large ML model, APISentry decomposes abuse detection into specialized agents that independently analyze different dimensions of API traffic—behavioral patterns, endpoint semantics, spatio-temporal graphs—and aggregates their outputs through a coordinator agent. On-track to publish peer-reviewed research validating accuracy."
       problem="Traditional API security tools rely on static rules or monolithic models that struggle to detect diverse, evolving abuse patterns. A single detection approach cannot simultaneously handle bot automation, API scraping, endpoint enumeration, and semantic misuse with high accuracy and explainability."

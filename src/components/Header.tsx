@@ -27,13 +27,13 @@ const Header = () => {
           {/* Links centered at bottom */}
           <nav className="absolute bottom-6 left-0 right-0 z-20 flex justify-center gap-8">
             <a
-              href="mailto:jeff.emerson.mathew@gmail.com"
+              href="mailto:jeffem0309@gmail.com"
               className="text-sm text-white/60 hover:text-white transition-colors duration-200"
             >
               Email
             </a>
             <a
-              href="https://github.com/aza3l0309"
+              href="https://github.com/Aza3l01"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-white/60 hover:text-white transition-colors duration-200"
@@ -41,7 +41,7 @@ const Header = () => {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/PLACEHOLDER"
+              href="https://www.linkedin.com/in/jeffmathew03/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-white/60 hover:text-white transition-colors duration-200"

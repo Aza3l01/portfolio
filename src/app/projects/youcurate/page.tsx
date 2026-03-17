@@ -5,7 +5,7 @@ export default function YouCuratePage() {
     <ProjectPage
       title="YouCurate"
       subtitle="Control Your YouTube Algorithm"
-      githubUrl="https://github.com/PLACEHOLDER/youcurate"
+      githubUrl="https://github.com/Aza3l01/youcurate"
       websiteUrl="https://PLACEHOLDER.com"
       overview="A user-driven YouTube channel ranking system that combines community structural signals with personal preferences to create a personalized transparency layer on top of YouTube. Not a universal rating—a personalized ranking layer."
       problem="YouTube's recommendation algorithm optimizes for engagement, not quality or transparency. Users have no way to surface negative quality signals—such as AI voice usage, clickbait intensity, or sponsorship saturation—because surfacing them would hurt YouTube's engagement metrics."

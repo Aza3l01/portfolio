@@ -5,8 +5,8 @@ export default function SatQuestPage() {
     <ProjectPage
       title="SatQuest"
       subtitle="Multiplayer Geography Game"
-      githubUrl="https://github.com/PLACEHOLDER/satquest"
-      websiteUrl="https://PLACEHOLDER.com"
+      githubUrl="https://github.com/Aza3l01/satquest"
+      websiteUrl="https://www.satquest.app/"
       overview="A web-based multiplayer geography game using satellite and terrain imagery with Elo-based ranking systems for competitive leaderboards."
       problem="Existing geography games lack deep competitive multiplayer infrastructure, diverse imagery sources, and game economy mechanics that drive long-term retention."
       solution="SatQuest combines satellite imagery with real-time multiplayer gameplay and an Elo ranking system. Designed for both casual and competitive play, with monetization through subscriptions, cosmetics, and competitive access."
