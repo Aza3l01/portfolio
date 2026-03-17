@@ -20,7 +20,7 @@ const projects = [
 
 const Projects = () => {
 	return (
-		<section className="max-w-[1200px] mx-auto px-8 py-16">
+		<section className="max-w-[1200px] mx-auto px-4 md:px-8 py-10 md:py-16">
 			<h2 className="text-sm text-zinc-500 uppercase tracking-widest mb-10">
 				Current Projects
 			</h2>
