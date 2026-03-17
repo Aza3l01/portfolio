@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="bg-zinc-900">
       <div className="max-w-[1200px] mx-auto px-8 pt-8">
-        <div className="relative h-[65vh] rounded-3xl overflow-hidden">
+        <div className="relative aspect-[5/2] rounded-3xl overflow-hidden">
           <Image
             src="/bgcat.jpg"
             alt="hero background"
@@ -14,11 +14,14 @@ const Header = () => {
           />
           <div className="absolute inset-0 bg-black/30" />
 
-          {/* Name centered */}
-          <div className="relative z-10 flex items-center justify-center h-full">
-            <h1 className="text-4xl md:text-5xl font-bold text-white tracking-tight">
-              Jeff Emerson Mathew
+          {/* Name top-center */}
+          <div className="relative z-10 flex flex-col items-center pt-[15%]">
+            <h1 className="text-4xl md:text-5xl font-medium text-white tracking-tight">
+              azael
             </h1>
+            <p className="text-xs md:text-sm text-white/50 mt-2 tracking-wide">
+              Jeff Emerson Mathew
+            </p>
           </div>
 
           {/* Links centered at bottom */}
