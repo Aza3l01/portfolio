@@ -39,7 +39,6 @@ export default function F1DashStatsPage() {
         },
       ]}
       revenue="Planned: donations, optional subscription to remove API rate limits. Retired due to low revenue potential."
-      screenshots={[]}
     />
   );
 }

@@ -29,17 +29,16 @@ export default function ThreeDPartPickerPage() {
       ]}
       roadmap={[
         {
-          phase: "Status — Retired",
+          phase: "Status: Retired",
           items: [
-            "Low feasibility — hard to implement 3D models for all components",
+            "Low feasibility: hard to implement 3D models for all components",
             "Existing competitors (PCPartPicker) are deeply entrenched",
             "No clear revenue stream",
             "Retired due to high effort, low return",
           ],
         },
       ]}
-      revenue="No viable revenue model identified. Retired due to low feasibility and saturated market."
-      screenshots={[]}
+      revenue="No viable revenue model apart from subscriptions. Retired due to low feasibility (low conversion rate) and saturated market."
     />
   );
 }

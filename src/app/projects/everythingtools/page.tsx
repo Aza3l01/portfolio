@@ -39,7 +39,6 @@ export default function EverythingToolsPage() {
         },
       ]}
       revenue="Planned: ads, API pricing, subscription. Retired due to low feasibility — saturated market and long development time with uncertain returns."
-      screenshots={[]}
     />
   );
 }

@@ -62,7 +62,7 @@ export default function SatQuestPage() {
         },
       ]}
       revenue="Full-scale game revenue model: subscription for competitive game access, paid skins and cosmetics, and engagement-based rewards."
-      screenshots={[]}
+      screenshots={["/projects/satquest/screenshot-1.png"]}
     />
   );
 }

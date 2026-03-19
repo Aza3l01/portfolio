@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 interface Feature {
   title: string;
@@ -21,7 +22,7 @@ interface ProjectPageProps {
   features: Feature[];
   roadmap: RoadmapPhase[];
   revenue: string;
-  screenshots: string[];
+  screenshots?: string[];
 }
 
 const ProjectPage = ({
@@ -133,30 +134,23 @@ const ProjectPage = ({
         </Section>
 
         {/* Screenshots */}
-        {screenshots.length > 0 ? (
+        {screenshots && screenshots.length > 0 && (
           <Section title="Screenshots">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {screenshots.map((src, i) => (
                 <div
                   key={i}
-                  className="aspect-video bg-zinc-800 rounded-xl overflow-hidden"
+                  className="aspect-video bg-zinc-800 rounded-xl overflow-hidden relative"
                 >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
+                  <Image
                     src={src}
                     alt={`Screenshot ${i + 1}`}
-                    className="w-full h-full object-cover"
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 </div>
               ))}
-            </div>
-          </Section>
-        ) : (
-          <Section title="Screenshots">
-            <div className="bg-zinc-800/40 border border-zinc-700/40 rounded-xl p-8 text-center">
-              <p className="text-zinc-600 text-sm">
-                [Update: add project screenshots]
-              </p>
             </div>
           </Section>
         )}

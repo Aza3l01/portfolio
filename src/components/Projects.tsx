@@ -30,21 +30,21 @@ const currentProjects: Project[] = [
     title: "SatQuest",
     description: "Multiplayer geography game using satellite imagery",
     date: "2025-07",
-    thumbnail: "/satquest/thumb.png",
+    thumbnail: "/projects/satquest/thumb.png",
   },
   {
     slug: "aiko",
     title: "Aiko",
     description: "AI waifu chatbot with affection system & 20+ personalities",
     date: "2024-09",
-    thumbnail: "/aiko/thumb.png",
+    thumbnail: "/projects/aiko/thumb.png",
   },
   {
     slug: "insultbot",
     title: "Insult Bot",
     description: "Feature-rich sassy chatbot & replybot for Discord",
     date: "2022-08",
-    thumbnail: "/insultbot/thumb.png",
+    thumbnail: "/projects/insultbot/thumb.png",
   },
 ];
 
@@ -65,7 +65,7 @@ const retiredProjects: Project[] = [
   },
   {
     slug: "f1dashstats",
-    title: "F1Dash & Stats",
+    title: "F1Dash&Stats",
     description: "Open source F1 dashboard for races, stats & predictions",
     date: "2023-11",
   },

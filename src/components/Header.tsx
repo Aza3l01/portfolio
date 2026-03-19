@@ -48,6 +48,22 @@ const Header = () => {
             >
               LinkedIn
             </a>
+            <a
+              href="https://discordapp.com/users/364400063281102852"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs md:text-sm text-white/60 hover:text-white transition-colors duration-200"
+            >
+              Discord
+            </a>
+            <a
+              href="https://ko-fi.com/azaelbots"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs md:text-sm text-white/60 hover:text-white transition-colors duration-200"
+            >
+              Ko-fi
+            </a>
           </nav>
         </div>
       </div>

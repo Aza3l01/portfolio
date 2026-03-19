@@ -39,7 +39,6 @@ export default function DriveManagerPage() {
         },
       ]}
       revenue="Planned: open source with donation-based support. Retired due to low projected usage."
-      screenshots={[]}
     />
   );
 }
