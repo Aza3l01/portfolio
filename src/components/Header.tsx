@@ -6,7 +6,7 @@ const Header = () => {
       <div className="max-w-[1200px] mx-auto px-4 md:px-8 pt-4 md:pt-8">
         <div className="relative aspect-[3/4] sm:aspect-[4/3] md:aspect-[5/2] rounded-3xl overflow-hidden">
           <Image
-            src="/bgcat.jpg"
+            src="/bgcat-hires.jpg"
             alt="hero background"
             fill
             className="object-cover"

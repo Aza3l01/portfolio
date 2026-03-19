@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Azael's Portfolio",
-  description: "Azael's Portfolio",
+  title: "azael's projects!",
+  description: "Just a collection of projects and ideas I'm working on. Feel free to reach out if you want to collaborate or just chat about cool tech!",
 };
 
 export default function RootLayout({
