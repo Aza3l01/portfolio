@@ -32,20 +32,20 @@ const currentProjects: Project[] = [
     date: "2025-07",
     thumbnail: "/projects/satquest/thumb.png",
   },
-  {
-    slug: "aiko",
-    title: "Aiko",
-    description: "AI waifu chatbot with affection system & 20+ personalities",
-    date: "2024-09",
-    thumbnail: "/projects/aiko/thumb.png",
-  },
-  {
-    slug: "insultbot",
-    title: "Insult Bot",
-    description: "Feature-rich sassy chatbot & replybot for Discord",
-    date: "2022-08",
-    thumbnail: "/projects/insultbot/thumb.png",
-  },
+  // {
+  //   slug: "aiko",
+  //   title: "Aiko",
+  //   description: "AI waifu chatbot with affection system & 20+ personalities",
+  //   date: "2024-09",
+  //   thumbnail: "/projects/aiko/thumb.png",
+  // },
+  // {
+  //   slug: "insultbot",
+  //   title: "Insult Bot",
+  //   description: "Feature-rich sassy chatbot & replybot for Discord",
+  //   date: "2022-08",
+  //   thumbnail: "/projects/insultbot/thumb.png",
+  // },
 ];
 
 const retiredProjects: Project[] = [
